@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deepak Skin and Laser Cosmetic Clinic — Advanced Skin & Laser Care You Can Trust</title>
+<meta name="description" content="Deepak Skin and Laser Cosmetic Clinic offers advanced dermatology and laser treatments — acne care, laser hair removal, anti-aging and skin rejuvenation in a calm, modern clinic. Book your visit online in seconds." />
+<meta name="keywords" content="skin clinic, dermatologist, laser hair removal, cosmetic dermatology, acne treatment, anti-aging, skin care" />
+<meta name="author" content="Deepak Skin and Laser Cosmetic Clinic" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Deepak Skin and Laser Cosmetic Clinic — Advanced Skin & Laser Care You Can Trust" />
+<meta property="og:description" content="Advanced, gentle skin and laser care for everyone. Book your appointment online." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+
+<link rel="icon" type="image/png" href="images/logo.png" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet" />
+
+<!-- Tailwind (CDN, configured) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          bg: '#FAFCFE',
+          surface: '#FFFFFF',
+          primary: { DEFAULT: '#0F5C7A', dark: '#0B4459', light: '#4FB8C9' },
+          mint: '#EAF7F6',
+          gold: '#C6A15B',
+          ink: '#102A3B',
+          muted: '#5C7686',
+          line: '#E3ECEF',
+        },
+        fontFamily: {
+          display: ['Fraunces', 'serif'],
+          body: ['"Plus Jakarta Sans"', 'sans-serif'],
+        },
+        borderRadius: { '4xl': '2rem' },
+        boxShadow: {
+          glass: '0 8px 32px 0 rgba(15, 92, 122, 0.12)',
+          soft: '0 20px 60px -15px rgba(15, 92, 122, 0.25)',
+        },
+      },
+    },
+  };
+</script>
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-bg text-ink font-body antialiased">
+
+<!-- Skip link for accessibility -->
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- Page load progress arc -->
+<div class="smile-progress" aria-hidden="true"><div id="smileProgressFill" class="smile-progress-fill"></div></div>
+
+<!-- ========================= HEADER / NAV ========================= -->
+<header id="siteHeader" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <nav class="glass-nav mx-auto flex items-center justify-between px-5 sm:px-8 py-3 transition-all duration-300" aria-label="Primary">
+    <a href="#home" class="flex items-center gap-2 shrink-0" aria-label="Deepak Skin and Laser Cosmetic Clinic home">
+  <img src="images/logo.png" alt="Deepak Skin and Laser Cosmetic Clinic logo" class="h-9 w-auto sm:h-10" width="40" height="40" />
+  <span class="font-display text-lg sm:text-xl font-semibold tracking-tight text-ink">Deepak <span class="text-primary">Skin &amp; Laser</span></span>
+</a>
+
+    <ul class="hidden lg:flex items-center gap-8 font-medium text-sm text-ink/80">
+      <li><a href="#home" class="nav-link" data-nav>Home</a></li>
+      <li><a href="#about" class="nav-link" data-nav>About</a></li>
+      <li><a href="#treatments" class="nav-link" data-nav>Treatments</a></li>
+      <li><a href="#before-after" class="nav-link" data-nav>Results</a></li>
+      <li><a href="#testimonials" class="nav-link" data-nav>Testimonials</a></li>
+      <li><a href="#faq" class="nav-link" data-nav>FAQ</a></li>
+      <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+    </ul>
+
+<div class="hidden lg:flex items-center">
+  <a href="#booking" class="btn-primary" data-nav>Book Appointment</a>
+</div>
+
+    <button id="menuToggle" class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-primary/10 transition-colors" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg id="menuIconOpen" class="w-6 h-6 text-ink" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg id="menuIconClose" class="w-6 h-6 text-ink hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="lg:hidden hidden glass-nav mx-3 mt-2 rounded-3xl overflow-hidden">
+    <ul class="flex flex-col divide-y divide-line/70 font-medium text-ink/85">
+      <li><a href="#home" class="block px-6 py-3.5" data-nav data-mobile>Home</a></li>
+      <li><a href="#about" class="block px-6 py-3.5" data-nav data-mobile>About</a></li>
+      <li><a href="#treatments" class="block px-6 py-3.5" data-nav data-mobile>Treatments</a></li>
+      <li><a href="#before-after" class="block px-6 py-3.5" data-nav data-mobile>Results</a></li>
+      <li><a href="#doctors" class="block px-6 py-3.5" data-nav data-mobile>Specialists</a></li>
+      <li><a href="#gallery" class="block px-6 py-3.5" data-nav data-mobile>Gallery</a></li>
+      <li><a href="#testimonials" class="block px-6 py-3.5" data-nav data-mobile>Testimonials</a></li>
+      <li><a href="#faq" class="block px-6 py-3.5" data-nav data-mobile>FAQ</a></li>
+      <li><a href="#contact" class="block px-6 py-3.5" data-nav data-mobile>Contact</a></li>
+      <li class="px-6 py-4"><a href="#booking" class="btn-primary w-full justify-center" data-nav data-mobile>Book Appointment</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ========================= HERO ========================= -->
+  <section id="home" class="relative overflow-hidden pt-36 pb-24 sm:pt-44 sm:pb-32">
+    <div class="blob blob-a" aria-hidden="true"></div>
+    <div class="blob blob-b" aria-hidden="true"></div>
+
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center relative">
+      <div class="reveal-up">
+        <p class="eyebrow"><span class="dot"></span> Trusted by 12,000+ happy clients since 2010</p>
+        <h1 class="mt-5 font-display text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.08] tracking-tight text-ink">
+          Great skin is more than a treatment—it's <span class="italic text-primary">confidence and comfort.</span>
+        </h1>
+        <p class="mt-6 text-lg text-muted max-w-xl leading-relaxed">
+       Advanced dermatology and laser care, personalized to your needs. From everyday concerns to complex skin and hair conditions, we're here to help you achieve healthier skin, stronger hair, and lasting confidence.
+        </p>
+
+        <div class="mt-9 flex flex-wrap items-center gap-4">
+          <a href="#booking" class="btn-primary text-base px-7 py-3.5">
+            Book Your Visit
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="#treatments" class="btn-ghost text-base px-7 py-3.5">Explore Treatments</a>
+        </div>
+
+        <div class="mt-12 flex flex-wrap items-center gap-x-10 gap-y-5">
+          <div>
+            <p class="font-display text-3xl font-semibold text-ink counter" data-target="98">0</p>
+            <p class="text-sm text-muted mt-0.5">% patient satisfaction</p>
+          </div>
+          <div class="h-10 w-px bg-line hidden sm:block"></div>
+          <div>
+            <p class="font-display text-3xl font-semibold text-ink"><span class="counter" data-target="15">0</span>+</p>
+            <p class="text-sm text-muted mt-0.5">Years of gentle care</p>
+          </div>
+          <div class="h-10 w-px bg-line hidden sm:block"></div>
+          <div class="flex items-center gap-2">
+            <div class="flex text-gold" aria-hidden="true">★★★★★</div>
+            <p class="text-sm text-muted">4.9 average rating</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative order-1 lg:order-2 reveal-up">
+        <div class="hero-image-wrap">
+  <img src="images/interior.png" alt="Deepak Skin and Laser Cosmetic Clinic interior" class="hero-image" />
+</div>
+
+       <div class="absolute -bottom-4 -left-3 sm:-bottom-8 sm:-left-10 glass-card px-3 py-2 sm:px-5 sm:py-4 rounded-xl sm:rounded-2xl shadow-glass float-slow max-w-[140px] sm:max-w-[220px]">
+  <p class="text-[10px] sm:text-xs text-muted leading-tight" id="clinicStatusLabel">Checking hours…</p>
+  <p class="font-display font-semibold text-ink text-xs sm:text-base mt-0.5 leading-tight" id="clinicStatusMain"></p>
+  <p class="text-[10px] sm:text-xs text-primary mt-1 font-medium leading-tight" id="clinicStatusSub"></p>
+</div>
+
+        <div class="absolute -top-3 -right-2 sm:-top-6 sm:-right-8 glass-card px-2.5 py-2 sm:px-4 sm:py-3 rounded-xl sm:rounded-2xl shadow-glass float-slow" style="animation-delay:1.2s">
+          <div class="flex items-center gap-1.5 sm:gap-2">
+            <span class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center text-xs sm:text-sm font-semibold">✓</span>
+            <div>
+              <p class="text-[11px] sm:text-xs font-semibold text-ink leading-tight">Painless Technology</p>
+              <p class="text-[9px] sm:text-[11px] text-muted leading-tight">Laser-assisted care</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="smile-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ========================= ABOUT ========================= -->
+  <section id="about" class="py-24 sm:py-32 bg-mint/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
+      <div class="relative order-2 lg:order-1 reveal-up">
+  <div class="reel-wrap">
+    <video id="aboutReel" class="reel-video" src="videos/reel.mp4" poster="images/interior-3.png"
+           autoplay muted loop playsinline preload="metadata"
+           aria-label="Video tour of Deepak Skin and Laser Cosmetic Clinic"></video>
+
+    <button type="button" id="reelSound" class="reel-sound" aria-label="Turn sound on" aria-pressed="false">
+      <svg id="reelIconMuted" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4V5zM23 9l-6 6M17 9l6 6"/></svg>
+      <svg id="reelIconOn" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 010 7.07M19.07 4.93a10 10 0 010 14.14"/></svg>
+    </button>
+
+  <div class="absolute -bottom-4 -right-2 glass-card rounded-lg px-4 py-2.5 shadow-glass flex items-center gap-3 whitespace-nowrap">
+  <p class="font-display text-2xl font-semibold text-primary leading-none">12+</p>
+  <span class="w-px h-8 bg-line"></span>
+  <p class="text-[11px] text-muted leading-tight">Years of<br>experience</p>
+</div>
+  </div>
+</div>
+
+      <div class="order-1 lg:order-2 reveal-up">
+        <p class="eyebrow"><span class="dot"></span> About Deepak Skin and Laser Cosmetic Clinic</p>
+        <h2 class="section-title mt-4">Expert skin care, advanced treatments, and lasting confidence.</h2>
+        <p class="mt-5 text-muted leading-relaxed">
+          Led by Dr. V. Premraj, M.D., D.V.L., a skin, hair, STD, and cosmetic specialist with 12 years of experience, our clinic provides personalized dermatological care, accurate diagnosis, and advanced laser treatments to help you achieve healthier skin and hair.
+        </p>
+        <ul class="mt-8 space-y-4">
+          <li class="flex gap-3">
+            <span class="check-icon">✓</span>
+            <span><span class="font-semibold text-ink">Experienced Dermatologist</span> — Specialized care for skin diseases, hair, and cosmetic concerns.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="check-icon">✓</span>
+            <span><span class="font-semibold text-ink">Advanced Laser Treatments</span> — Laser hair removal, acne scar treatment, tattoo removal, and vitiligo care.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="check-icon">✓</span>
+            <span><span class="font-semibold text-ink">Comprehensive Skin Care</span> — PRP, hair fall treatment, HydraFacial, phototherapy, and minor dermatological procedures.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="check-icon">✓</span>
+            <span><span class="font-semibold text-ink">Same-week appointments</span> — because skin concerns shouldn't wait on a calendar.</span>
+          </li>
+        </ul>
+        <a href="#treatments" class="btn-ghost mt-9 inline-flex">See our treatments</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= WHY CHOOSE US ========================= -->
+  <section class="py-24 sm:py-32">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal-up">
+        <p class="eyebrow justify-center"><span class="dot"></span> Why patients choose us</p>
+        <h2 class="section-title mt-4">Care built around how you actually feel.</h2>
+        <p class="mt-5 text-muted">Four commitments that shape every appointment, from your first call to your last checkup.</p>
+      </div>
+
+      <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="feature-card reveal-up">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21c-4.97-3.14-8-6.9-8-11a8 8 0 1116 0c0 4.1-3.03 7.86-8 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          </div>
+          <h3 class="font-display text-lg font-semibold text-ink mt-5">Gentle by design</h3>
+          <p class="text-sm text-muted mt-2 leading-relaxed">Laser and topical numbing options minimize discomfort for even the most sensitive skin.</p>
+        </div>
+        <div class="feature-card reveal-up" style="animation-delay:.08s">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-display text-lg font-semibold text-ink mt-5">Certified specialists</h3>
+          <p class="text-sm text-muted mt-2 leading-relaxed">Dermatologists, cosmetologists and laser specialists on staff — not general referrals.</p>
+        </div>
+        <div class="feature-card reveal-up" style="animation-delay:.16s">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-display text-lg font-semibold text-ink mt-5">Modern technology</h3>
+          <p class="text-sm text-muted mt-2 leading-relaxed">Advanced skin analysis and imaging replace guesswork with precise, personalised plans.</p>
+        </div>
+        <div class="feature-card reveal-up" style="animation-delay:.24s">
+          <div class="feature-icon">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-display text-lg font-semibold text-ink mt-5">On-time, every time</h3>
+          <p class="text-sm text-muted mt-2 leading-relaxed">Appointments run on schedule — your time is treated as valuable as ours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= STATISTICS ========================= -->
+  <section class="py-20 bg-primary relative overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.06]" style="background-image:radial-gradient(circle at 20% 30%, white 1px, transparent 1px);background-size:26px 26px;" aria-hidden="true"></div>
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 relative">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="reveal-up">
+          <p class="font-display text-4xl sm:text-5xl font-semibold text-white"><span class="counter" data-target="12000">0</span>+</p>
+          <p class="text-white/70 mt-2 text-sm">Happy patients</p>
+        </div>
+        <div class="reveal-up" style="animation-delay:.08s">
+          <p class="font-display text-4xl sm:text-5xl font-semibold text-white"><span class="counter" data-target="24">0</span></p>
+          <p class="text-white/70 mt-2 text-sm">Specialists on staff</p>
+        </div>
+        <div class="reveal-up" style="animation-delay:.16s">
+          <p class="font-display text-4xl sm:text-5xl font-semibold text-white"><span class="counter" data-target="15">0</span></p>
+          <p class="text-white/70 mt-2 text-sm">Years in practice</p>
+        </div>
+        <div class="reveal-up" style="animation-delay:.24s">
+          <p class="font-display text-4xl sm:text-5xl font-semibold text-white"><span class="counter" data-target="98">0</span>%</p>
+          <p class="text-white/70 mt-2 text-sm">Would recommend us</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= CTA BANNER ========================= -->
+  <section class="py-24 sm:py-28">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8">
+      <div class="cta-banner reveal-up">
+        <div class="max-w-xl">
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold text-white leading-tight">Your best skin is a booking away.</h2>
+          <p class="text-white/80 mt-3">Free consultations for new patients this month. No pressure, just honest advice.</p>
+        </div>
+        <a href="#booking" class="btn-white shrink-0">Book Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= TREATMENTS ========================= -->
+  <section id="treatments" class="py-24 sm:py-32 bg-mint/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal-up">
+        <p class="eyebrow justify-center"><span class="dot"></span> Treatments</p>
+        <h2 class="section-title mt-4">Complete care, under one roof.</h2>
+        <p class="mt-5 text-muted">Tap any card to see what's included — no jargon, no surprises.</p>
+      </div>
+
+      <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="treatmentGrid">
+        <!-- Treatment cards injected/authored statically -->
+
+        <!-- 1. Hydra Facial -->
+        <article class="flip-card reveal-up" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2.5c-3 4.2-6.5 8.6-6.5 12.3a6.5 6.5 0 1013 0c0-3.7-3.5-8.1-6.5-12.3z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Hydra Facial</h3>
+              <p class="text-sm text-muted mt-2">Deep-cleansing skin rejuvenation for an instant glow.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Hydra Facial — Skin Rejuvenation</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A gentle, medical-grade facial that cleanses, exfoliates and hydrates in one session, leaving skin visibly fresher and more even-toned.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Micro Dermabrasion -->
+        <article class="flip-card reveal-up" style="animation-delay:.06s" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Micro Dermabrasion</h3>
+              <p class="text-sm text-muted mt-2">Gentle exfoliation for smoother, brighter skin.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Micro Dermabrasion</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A fine-crystal resurfacing treatment that buffs away dull, dead skin — softening texture, fine lines and shallow scars with no downtime.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Electro Cautery & Radio Frequency -->
+        <article class="flip-card reveal-up" style="animation-delay:.12s" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 3L4.5 13.5h6L9 21l10.5-11.25h-6z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Electro Cautery &amp; RF</h3>
+              <p class="text-sm text-muted mt-2">Precise removal of skin tags, warts and moles.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Electro Cautery &amp; Radio Frequency</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A quick, in-clinic procedure that safely removes skin tags, warts and small growths using controlled heat, with minimal scarring.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Nail Surgery -->
+        <article class="flip-card reveal-up" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5.25a3 3 0 116 0v6a6 6 0 11-12 0V9.75M18.75 9v3.75M17 10.75h3.5"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Nail Surgery</h3>
+              <p class="text-sm text-muted mt-2">Lasting relief from ingrown or infected nails.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Nail Surgery</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A minor in-clinic procedure to correct ingrown, infected or damaged nails, performed under local anaesthesia for lasting comfort.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Minor Dermato Surgery -->
+        <article class="flip-card reveal-up" style="animation-delay:.06s" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 19L19 5M19 5l-4.5.6M19 5l-.6 4.5"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Minor Dermato Surgery</h3>
+              <p class="text-sm text-muted mt-2">Safe removal of cysts, lipomas and skin growths.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Minor Dermato Surgery</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">Day-care surgical removal of cysts, lipomas and benign skin growths, carried out with careful, scar-conscious technique.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. PRP Hairfall Treatment -->
+        <article class="flip-card reveal-up" style="animation-delay:.12s" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 3.75v3.86a2.25 2.25 0 01-.659 1.59L4.5 13.04v5.71a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25v-5.71l-3.841-3.84A2.25 2.25 0 0115 7.61V3.75M9 3.75h6"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">PRP Hairfall Treatment</h3>
+              <p class="text-sm text-muted mt-2">Platelet-rich plasma therapy to reduce hair fall.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Platelet Rich Plasma (PRP) Hairfall Treatment</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">Your own concentrated platelets are used to stimulate follicles and slow hair fall — a natural, minimally-invasive path to fuller-looking hair.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Extra treatments, hidden until "View All" is clicked -->
+
+        <!-- 7. Laser Hair Removal -->
+        <article class="flip-card reveal-up extra-treatment hidden" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095.513l-1.41-.513M5.106 17.785l1.15-.964m11.49.964l-1.15-.964M7.5 4.977l.75 1.328m7.5 0l.75-1.328M10.5 22.5h3"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Laser Hair Removal</h3>
+              <p class="text-sm text-muted mt-2">Long-lasting, painless removal for all skin types.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Laser Hair Removal</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">Advanced diode laser technology delivers smooth, hair-free skin — average of 6-8 sessions for lasting results.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Acne Scar Treatment -->
+        <article class="flip-card reveal-up extra-treatment hidden" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21c-4.97-3.14-8-6.9-8-11a8 8 0 1116 0c0 4.1-3.03 7.86-8 11z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Acne Scar Treatment</h3>
+              <p class="text-sm text-muted mt-2">Laser and dermaroller therapy for smoother skin.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Acne Scar Treatment — Laser &amp; Dermaroller</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A combination of laser resurfacing and dermaroller micro-needling stimulates collagen to soften scars and even out texture over time.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9. Tattoo Removal - Laser -->
+        <article class="flip-card reveal-up extra-treatment hidden" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l3.75 3.75L21 12.75 17.25 9M15 11.25L9 5.25l-3.75 1.5L9 10.5m6 .75l-5.44 5.44a2.121 2.121 0 01-3-3L11 8.25"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Tattoo Removal</h3>
+              <p class="text-sm text-muted mt-2">Laser-based fading and removal of unwanted tattoos.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Tattoo Removal — Laser</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">Targeted laser pulses break down tattoo pigment over a series of sessions, gradually fading ink with minimal damage to surrounding skin.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 10. Excimer Laser - Vitiligo -->
+        <article class="flip-card reveal-up extra-treatment hidden" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-6.364-2.386l1.591-1.591M3 12h2.25m.386-6.364l1.591 1.591M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Excimer Laser</h3>
+              <p class="text-sm text-muted mt-2">Targeted light therapy for white patches (vitiligo).</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Excimer Laser — White Patches (Vitiligo)</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">A focused UV laser stimulates pigment-producing cells in vitiligo patches, helping restore natural skin colour with precise, spot-only treatment.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 11. Phototherapy -->
+        <article class="flip-card reveal-up extra-treatment hidden" tabindex="0">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <div class="feature-icon"><svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 18h6m-5.25 3h4.5M12 3a6.75 6.75 0 00-4.06 12.15c.5.38.81.97.81 1.6v.5h6.5v-.5c0-.63.31-1.22.81-1.6A6.75 6.75 0 0012 3z"/></svg></div>
+              <h3 class="font-display text-xl font-semibold mt-5">Phototherapy</h3>
+              <p class="text-sm text-muted mt-2">UV light therapy for white patches, psoriasis &amp; more.</p>
+              <span class="flip-hint">Tap to explore →</span>
+            </div>
+            <div class="flip-back">
+              <h3 class="font-display text-lg font-semibold text-white">Phototherapy</h3>
+              <p class="text-sm text-white/85 mt-3 leading-relaxed">Controlled UV light sessions calm psoriasis, vitiligo and other chronic skin conditions — a proven, medication-free option for long-term care.</p>
+              <a href="#booking" class="btn-white mt-5 !py-2.5 !px-5 text-sm">Book this</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="mt-10 flex justify-center">
+        <button type="button" id="viewAllTreatmentsBtn" class="btn-ghost text-base px-7 py-3.5" aria-expanded="false" aria-controls="treatmentGrid">
+          <span id="viewAllTreatmentsText">View All Treatments</span>
+          <svg id="viewAllTreatmentsIcon" class="w-4 h-4 ml-1 inline-block transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('viewAllTreatmentsBtn');
+      var label = document.getElementById('viewAllTreatmentsText');
+      var icon = document.getElementById('viewAllTreatmentsIcon');
+      if (!btn) return;
+      var expanded = false;
+      btn.addEventListener('click', function () {
+        expanded = !expanded;
+        document.querySelectorAll('.extra-treatment').forEach(function (card) {
+          card.classList.toggle('hidden', !expanded);
+        });
+        btn.setAttribute('aria-expanded', String(expanded));
+        label.textContent = expanded ? 'Show Fewer Treatments' : 'View All Treatments';
+        icon.style.transform = expanded ? 'rotate(180deg)' : 'rotate(0deg)';
+        if (!expanded) {
+          document.getElementById('treatments').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    })();
+  </script>
+
+<section id="before-after" class="py-20 sm:py-28 overflow-hidden">
+  <div class="max-w-5xl mx-auto px-5 sm:px-8">
+    <div class="max-w-2xl mx-auto text-center reveal-up">
+      <p class="eyebrow justify-center"><span class="dot"></span> Real Results</p>
+      <h2 class="section-title mt-4">Real Results. Thoughtful Care.</h2>
+      <p class="mt-4 text-muted">Drag the slider on the centre card. Individual results vary by case.</p>
+    </div>
+  </div>
+
+  <div class="results-stage reveal-up" id="resultsStage">
+
+    <!-- Repeat this card for each result -->
+    <article class="result-card" data-pos="0">
+      <div class="rc-compare">
+        <img class="rc-img" src="images/acne-after.png"  alt="After acne scar treatment" loading="lazy" draggable="false">
+        <div class="rc-before"><img class="rc-img" src="images/acne-before.png" alt="Before acne scar treatment" loading="lazy" draggable="false"></div>
+        <span class="rc-tag rc-tag-before">Before</span>
+        <span class="rc-tag rc-tag-after">After</span>
+        <div class="rc-handle" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+        </div>
+        <input type="range" min="0" max="100" value="50" class="rc-range" aria-label="Drag to compare before and after">
+      </div>
+      <p class="rc-title">Acne Scar Treatment</p>
+    </article>
+
+    <article class="result-card" data-pos="1">
+      <div class="rc-compare">
+        
+        <img class="rc-img" src="images/hair-after.png"  alt="After pigmentation treatment" loading="lazy" draggable="false">
+        <div class="rc-before"><img class="rc-img" src="images/hair-before.png" alt="Before pigmentation treatment" loading="lazy" draggable="false"></div>
+        <span class="rc-tag rc-tag-before">Before</span>
+        <span class="rc-tag rc-tag-after">After</span>
+        <div class="rc-handle" aria-hidden="true">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 6l-6 6 6 6M14 6l6 6-6 6"/>
+  </svg>
+</div>
+        <input type="range" min="0" max="100" value="50" class="rc-range" aria-label="Drag to compare before and after">
+      </div>
+      <p class="rc-title">
+  <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+  <span class="w-px h-7 bg-line"></span>
+  Acne Scar Treatment
+</p>
+    </article>
+
+    <article class="result-card" data-pos="2">
+           <div class="rc-compare">
+        <img class="rc-img" src="images/t-after.png" alt="After pigmentation treatment" loading="lazy" draggable="false">
+        <div class="rc-before"><img class="rc-img" src="images/t-before.png" alt="Before pigmentation treatment" loading="lazy" draggable="false"></div>
+        <span class="rc-tag rc-tag-before">Before</span>
+        <span class="rc-tag rc-tag-after">After</span>
+        <div class="rc-handle" aria-hidden="true">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 6l-6 6 6 6M14 6l6 6-6 6"/>
+  </svg>
+</div>
+        <input type="range" min="0" max="100" value="50" class="rc-range" aria-label="Drag to compare before and after">
+      </div>
+      <p class="rc-title">
+  <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+  <span class="w-px h-7 bg-line"></span>
+  Acne Scar Treatment
+</p>
+    </article>
+
+    <article class="result-card" data-pos="3">
+     <div class="rc-compare">
+        
+        <img class="rc-img" src="images/hair-after.png"  alt="After pigmentation treatment" loading="lazy" draggable="false">
+        <div class="rc-before"><img class="rc-img" src="images/hair-before.png" alt="Before pigmentation treatment" loading="lazy" draggable="false"></div>
+        <span class="rc-tag rc-tag-before">Before</span>
+        <span class="rc-tag rc-tag-after">After</span>
+        <div class="rc-handle" aria-hidden="true">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 6l-6 6 6 6M14 6l6 6-6 6"/>
+  </svg>
+</div>
+        <input type="range" min="0" max="100" value="50" class="rc-range" aria-label="Drag to compare before and after">
+      </div>
+      <p class="rc-title">
+  <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z"/></svg>
+  <span class="w-px h-7 bg-line"></span>
+  Acne Scar Treatment
+</p>
+    </article>
+  </div>
+
+  <div class="results-controls">
+    <button id="resPrev" class="carousel-arrow !static !translate-y-0" aria-label="Previous result">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+    </button>
+    <div id="resDots" class="flex gap-2"></div>
+    <button id="resNext" class="carousel-arrow !static !translate-y-0" aria-label="Next result">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</section>
+
+  
+
+  <!-- ========================= TESTIMONIALS ========================= -->
+  <section id="testimonials" class="py-24 sm:py-32 overflow-hidden bg-mint/60">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center reveal-up">
+      <p class="eyebrow justify-center"><span class="dot"></span> Testimonials</p>
+      <h2 class="section-title mt-4">Kind words from our patients.</h2>
+    </div>
+
+    <div class="mt-14 max-w-3xl mx-auto px-5 sm:px-8 relative reveal-up">
+      <div class="relative">
+        <div id="testimonialTrack" class="testimonial-track">
+          <div class="testimonial-slide">
+            <div class="glass-card rounded-4xl p-8 sm:p-10 text-center">
+              <div class="flex justify-center text-gold mb-4" aria-hidden="true">★★★★★</div>
+              <p class="font-display text-xl sm:text-2xl text-ink leading-snug">"I used to dread skin clinics. Deepak Skin and Laser completely changed that — genuinely calming, and my skin looks incredible."</p>
+              <div class="mt-6 flex items-center justify-center gap-3">
+                <span class="w-11 h-11 rounded-full flex items-center justify-center text-white font-semibold text-sm" style="background:linear-gradient(135deg,#0F5C7A,#4FB8C9)">RT</span>
+                <div class="text-left">
+                  <p class="font-semibold text-ink text-sm">Rachel T.</p>
+                  <p class="text-xs text-muted">Skin rejuvenation patient</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="glass-card rounded-4xl p-8 sm:p-10 text-center">
+              <div class="flex justify-center text-gold mb-4" aria-hidden="true">★★★★★</div>
+              <p class="font-display text-xl sm:text-2xl text-ink leading-snug">"My laser hair removal sessions were faster and far less painful than I expected. Dr. Reyes explained every step."</p>
+              <div class="mt-6 flex items-center justify-center gap-3">
+                <span class="w-11 h-11 rounded-full flex items-center justify-center text-white font-semibold text-sm" style="background:linear-gradient(135deg,#4FB8C9,#0F5C7A)">DK</span>
+                <div class="text-left">
+                  <p class="font-semibold text-ink text-sm">David K.</p>
+                  <p class="text-xs text-muted">Laser hair removal patient</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide">
+            <div class="glass-card rounded-4xl p-8 sm:p-10 text-center">
+              <div class="flex justify-center text-gold mb-4" aria-hidden="true">★★★★★</div>
+              <p class="font-display text-xl sm:text-2xl text-ink leading-snug">"Booking online took two minutes and I got a text reminder the day before. Small things, but it shows."</p>
+              <div class="mt-6 flex items-center justify-center gap-3">
+                <span class="w-11 h-11 rounded-full flex items-center justify-center text-white font-semibold text-sm" style="background:linear-gradient(135deg,#C6A15B,#0F5C7A)">AM</span>
+                <div class="text-left">
+                  <p class="font-semibold text-ink text-sm">Amina M.</p>
+                  <p class="text-xs text-muted">Skin check-up</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="testimonialPrev" class="carousel-arrow left-0 sm:-left-6" aria-label="Previous testimonial">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <button id="testimonialNext" class="carousel-arrow right-0 sm:-right-6" aria-label="Next testimonial">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+      </button>
+
+      <div id="testimonialDots" class="flex justify-center gap-2 mt-8"></div>
+    </div>
+  </section>
+
+
+  <!-- ========================= FAQ ========================= -->
+  <section id="faq" class="py-24 sm:py-32">
+    <div class="max-w-3xl mx-auto px-5 sm:px-8">
+      <div class="text-center reveal-up">
+        <p class="eyebrow justify-center"><span class="dot"></span> FAQ</p>
+        <h2 class="section-title mt-4">Questions, answered.</h2>
+      </div>
+
+      <div class="mt-12 space-y-4" id="faqList">
+        <div class="faq-item reveal-up">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you accept insurance?</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer"><p>Most cosmetic and laser treatments aren't covered by insurance, but we offer transparent, itemized estimates before any treatment begins.</p></div>
+        </div>
+        <div class="faq-item reveal-up">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is laser treatment safe for sensitive skin?</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer"><p>Absolutely. We adjust laser settings and use soothing gels for sensitive skin, and always start with a patch test.</p></div>
+        </div>
+        <div class="faq-item reveal-up">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do I book an appointment?</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer"><p>Use the booking form below, call us directly, or message us on WhatsApp — you'll get a confirmation with a calendar invite by email.</p></div>
+        </div>
+        <div class="faq-item reveal-up">
+          <button class="faq-question" aria-expanded="false">
+            <span>What should I expect at my first visit?</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer"><p>A full skin analysis, an honest conversation about your goals, and clear treatment options — no pressure, no obligation.</p></div>
+        </div>
+        <div class="faq-item reveal-up">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you treat skin emergencies?</span>
+            <svg class="faq-chevron" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-answer"><p>Yes, we hold same-day slots for allergic reactions, burns or sudden flare-ups. Call our clinic line directly for the fastest response.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= CONTACT + BOOKING ========================= -->
+  <section id="contact" class="py-24 sm:py-32 bg-mint/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal-up">
+        <p class="eyebrow justify-center"><span class="dot"></span> Visit or book online</p>
+        <h2 class="section-title mt-4">Let's get your skin care on the calendar.</h2>
+      </div>
+
+      <div class="mt-16 grid lg:grid-cols-5 gap-8">
+        <!-- Contact info + map -->
+        <div class="lg:col-span-2 space-y-6 reveal-up">
+          <div class="glass-card rounded-3xl p-6">
+            <div class="rounded-2xl overflow-hidden aspect-[4/3]">
+              <iframe id="mapEmbed" title="Clinic location map" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-3xl p-6 space-y-5">
+            <a href="#" id="contactAddressLink" target="_blank" rel="noopener" class="contact-row">
+              <span class="contact-icon">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.5-7.5 11.25-7.5 11.25S4.5 18 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+              </span>
+              <span><span class="block text-xs text-muted">Address</span><span id="contactAddressText" class="font-medium text-ink text-sm"></span></span>
+            </a>
+            <a href="tel:" id="contactPhoneLink" class="contact-row">
+              <span class="contact-icon">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.98.804l.7 3.5a1 1 0 01-.55 1.12l-1.7.85a12.04 12.04 0 006.06 6.06l.85-1.7a1 1 0 011.12-.55l3.5.7a1 1 0 01.804.98V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V5z"/></svg>
+              </span>
+              <span><span class="block text-xs text-muted">Phone</span><span id="contactPhoneText" class="font-medium text-ink text-sm"></span></span>
+            </a>
+            <a href="mailto:" id="contactEmailLink" class="contact-row">
+              <span class="contact-icon">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+              </span>
+              <span><span class="block text-xs text-muted">Email</span><span id="contactEmailText" class="font-medium text-ink text-sm"></span></span>
+            </a>
+            <a href="#" id="contactWhatsappLink" target="_blank" rel="noopener" class="contact-row">
+              <span class="contact-icon !bg-[#25D366]/10 !text-[#1EAE53]">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.85.5 3.58 1.36 5.07L2 22l5.2-1.36a9.87 9.87 0 004.84 1.26h.01c5.46 0 9.9-4.45 9.9-9.9 0-2.64-1.03-5.13-2.9-7A9.86 9.86 0 0012.04 2zm0 1.7c2.19 0 4.24.86 5.79 2.4a8.18 8.18 0 012.4 5.8c0 4.52-3.68 8.2-8.2 8.2a8.18 8.18 0 01-4.15-1.13l-.3-.17-3.09.81.83-3.02-.19-.31a8.16 8.16 0 01-1.25-4.37c0-4.53 3.68-8.21 8.16-8.21zm-4.5 4.4c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.03s.87 2.36.99 2.52c.12.16 1.7 2.6 4.13 3.64 2.02.86 2.43.7 2.87.65.44-.05 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.32-.75-1.8-.2-.47-.4-.4-.55-.41z"/></svg>
+              </span>
+              <span><span class="block text-xs text-muted">WhatsApp</span><span class="font-medium text-ink text-sm">Chat with us instantly</span></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Booking form -->
+        <div class="lg:col-span-3 reveal-up" style="animation-delay:.08s">
+          <div class="glass-card rounded-4xl p-7 sm:p-10 shadow-soft" id="booking">
+            <h3 class="font-display text-2xl font-semibold text-ink">Book Your Appointment</h3>
+            <p class="text-muted text-sm mt-2">Fill in your details — we'll confirm by email and add it straight to our calendar.</p>
+
+            <form id="bookingForm" class="mt-8 space-y-5" novalidate>
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div class="field">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" id="fullName" name="fullName" autocomplete="name" placeholder="Jane Doe" required />
+                  <p class="field-error" id="err-fullName" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+1 555 123 4567" required />
+                  <p class="field-error" id="err-phone" role="alert"></p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@email.com" required />
+                <p class="field-error" id="err-email" role="alert"></p>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div class="field">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" name="date" required />
+                  <p class="field-error" id="err-date" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="time">Preferred Time</label>
+                  <select id="time" name="time" required>
+                    <option value="" disabled selected>Select a time</option>
+                    <option>09:00 AM</option><option>09:30 AM</option><option>10:00 AM</option>
+                    <option>10:30 AM</option><option>11:00 AM</option><option>11:30 AM</option>
+                    <option>01:00 PM</option><option>01:30 PM</option><option>02:00 PM</option>
+                    <option>02:30 PM</option><option>03:00 PM</option><option>03:30 PM</option>
+                    <option>04:00 PM</option><option>04:30 PM</option><option>05:00 PM</option>
+                  </select>
+                    <p class="text-muted" id="timeAvailabilityStatus" aria-live="polite"></p>
+                  <p class="field-error" id="err-time" role="alert"></p>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="notes">Notes <span class="text-muted font-normal">(optional)</span></label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Tell us what's bringing you in..."></textarea>
+              </div>
+
+              <button type="submit" id="bookingSubmit" class="btn-primary w-full justify-center text-base py-4">
+                <span id="bookingSubmitText">Confirm Appointment</span>
+                <svg id="bookingSpinner" class="hidden w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path></svg>
+              </button>
+
+              <div id="bookingSuccess" class="form-alert form-alert-success" hidden>
+                <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <p>You're booked! Check your email for a calendar invite from our clinic.</p>
+              </div>
+              <div id="bookingError" class="form-alert form-alert-error" hidden>
+                <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m0 3.75h.008M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <p id="bookingErrorText">Something went wrong. Please call us directly to book.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="bg-ink text-white/80 pt-20 pb-8">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div>
+      <div class="flex items-center gap-2">
+        <img src="images/logo.png" alt="" class="h-8 w-auto" aria-hidden="true" />  
+        <span class="font-display text-lg font-semibold text-white">Deepak Skin &amp; Laser</span>
+      </div>
+      <p class="text-sm mt-4 leading-relaxed text-white/60">Advanced, gentle skin and laser care for everyone — modern technology, boutique-clinic experience.</p>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-4 text-sm tracking-wide uppercase">Explore</h4>
+      <ul class="space-y-2.5 text-sm">
+        <li><a href="#treatments" class="footer-link" data-nav>Treatments</a></li>
+        <li><a href="#before-after" class="footer-link" data-nav>Results</a></li>
+        <li><a href="#testimonials" class="footer-link" data-nav>Testimonials</a></li>
+        <li><a href="#faq" class="footer-link" data-nav>FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-4 text-sm tracking-wide uppercase">Clinic Hours</h4>
+      <ul class="space-y-2.5 text-sm text-white/60">
+        <li class="flex justify-between gap-6"><span>Mon – Fri</span><span>9:00am – 6:00pm</span></li>
+        <li class="flex justify-between gap-6"><span>Saturday</span><span>9:00am – 2:00pm</span></li>
+        <li class="flex justify-between gap-6"><span>Sunday</span><span>Closed</span></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold text-white mb-4 text-sm tracking-wide uppercase">Get in touch</h4>
+      <ul class="space-y-2.5 text-sm text-white/60">
+        <li id="footerAddress"></li>
+        <li id="footerPhone"></li>
+        <li id="footerEmail"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 mt-14 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
+    <p>© <span id="year"></span> Deepak Skin and Laser Cosmetic Clinic. All rights reserved.</p>
+    <p>Designed with care, for healthier skin.</p>
+  </div>
+</footer>
+
+<!-- Floating action stack: WhatsApp + Book Appointment (bottom-right) -->
+<div class="floating-actions">
+  <a href="#" id="heroWhatsappLink" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp" class="floating-whatsapp">
+    <svg viewBox="0 0 32 32" class="w-6 h-6" fill="#fff" aria-hidden="true"><path d="M16.003 3C9.373 3 4 8.373 4 15.003c0 2.65.87 5.1 2.34 7.08L4.6 28l6.06-1.7a11.94 11.94 0 0 0 5.34 1.27h.005c6.63 0 12-5.373 12-12.003C28.006 8.373 22.633 3 16.003 3zm0 21.8h-.004a9.79 9.79 0 0 1-4.99-1.37l-.358-.213-3.598 1.01.98-3.507-.234-.36a9.78 9.78 0 0 1-1.5-5.23c0-5.42 4.41-9.83 9.833-9.83 2.627 0 5.096 1.024 6.953 2.883a9.77 9.77 0 0 1 2.878 6.953c0 5.42-4.41 9.83-9.83 9.83zm5.394-7.36c-.296-.148-1.75-.864-2.02-.963-.272-.099-.47-.148-.667.148-.198.297-.766.963-.94 1.162-.173.198-.346.223-.642.075-.297-.148-1.253-.462-2.387-1.472-.882-.787-1.478-1.76-1.65-2.057-.174-.297-.019-.457.13-.605.133-.132.297-.346.445-.52.148-.173.198-.297.297-.494.099-.198.05-.372-.025-.52-.074-.148-.667-1.608-.914-2.203-.24-.578-.485-.5-.667-.51-.173-.008-.371-.01-.569-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.017-1.04 2.48 0 1.463 1.065 2.877 1.213 3.075.148.198 2.096 3.2 5.078 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.75-.716 1.997-1.407.247-.692.247-1.284.173-1.408-.074-.123-.272-.198-.569-.346z"/></svg>
+  </a>
+  <a href="#booking" id="floatingBook" class="floating-book" data-nav aria-label="Book an appointment">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"/></svg>
+    <span class="hidden sm:inline">Book Appointment</span>
+  </a>
+</div>
+
+<script>
+(function () {
+  var v = document.getElementById('aboutReel');
+  var b = document.getElementById('reelSound');
+  if (!v || !b) return;
+  var on = document.getElementById('reelIconOn');
+  var off = document.getElementById('reelIconMuted');
+
+  // Sound toggle
+  b.addEventListener('click', function () {
+    v.muted = !v.muted;
+    b.setAttribute('aria-pressed', String(!v.muted));
+    b.setAttribute('aria-label', v.muted ? 'Turn sound on' : 'Turn sound off');
+    on.classList.toggle('hidden', v.muted);
+    off.classList.toggle('hidden', !v.muted);
+  });
+
+  // Play only while visible (saves data and battery)
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { v.play().catch(function () {}); }
+        else { v.pause(); }
+      });
+    }, { threshold: 0.35 }).observe(v);
+  }
+})();
+</script>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/booking.js"></script>
+
+</body>
+</html>
